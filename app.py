@@ -7,7 +7,7 @@ app.register_blueprint(user)
 app.register_blueprint(task)
 @app.route('/', methods=['GET'])
 def home():
-    return "<h1>HOME 2</h1>"
+    return "<h1>HOME 52</h1>"
 
 # client = MongoClient("mongodb+srv://renancavalcanti:IvzIJZklg5PMONvm@cluster0.rfbzg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # db = client['LS3FALL2024']
